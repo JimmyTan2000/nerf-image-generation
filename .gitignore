@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore the AutoNeRF directory 
+AutoNeRF/
+
+# Ignore .pt files 
+model_temp_checkpoints/*.pt
+
+# Ignore generated datasets
+generated_datasets/
