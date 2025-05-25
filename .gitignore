@@ -181,3 +181,6 @@ model_temp_checkpoints/*.pt
 
 # Ignore generated datasets
 generated_datasets/
+
+# Ignore playground python file 
+playground.py
