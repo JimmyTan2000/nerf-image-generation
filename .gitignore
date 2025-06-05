@@ -180,7 +180,15 @@ AutoNeRF/
 model_temp_checkpoints/*.pt
 
 # Ignore generated datasets
-generated_datasets/
+generated_datasets/*
+!generated_datasets/.gitkeep
 
 # Ignore playground python file 
 playground.py
+
+# Ignore other experimental notebooks and python scripts as well as test datasets
+notebooks/nerf_train_general_intel_xpu.ipynb
+notebooks/convert_png.ipynb
+notebooks/output_images/*
+notebooks/nerf_train_lego.ipynb
+data/hotdog-test.npz
