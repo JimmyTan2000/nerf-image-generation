@@ -2,7 +2,7 @@
 The main general notebook is `nerf_train_general.ipynb`.
 
 ## Important notes:
-The generated dataset is in .npz file which contains the tensor for the generated images, poses as well as focal length. In order to use it for SiT, we convert those tensors into JPEG images for experimental purpose. Ideally we would want to feed in the tensors directly though to reduce some overhead during training. 
+The generated dataset is in .npz file which contains the tensor for the generated images, poses as well as focal length. In order to use it for our [SiT](https://github.com/JimmyTan2000/SiT), we convert those tensors into JPEG images for experimental purpose. Ideally we would want to feed in the tensors directly though to reduce some overhead during training. 
 
 The python script for the JPEG conversion is `convert-to-jpg.py`
 
