@@ -3,8 +3,8 @@ import torch
 import torch.nn.functional as F
 
 input_npz = "generated_datasets/temp_dataset_lego_new1.pt.npz"
-output_npz = "generated_datasets/temp_dataset_lego_resized256.npz"
-target_size = 256
+output_npz = "generated_datasets/temp_dataset_lego_resized128.npz"
+target_size = 128
 batch_size = 100  # Adjust as needed
 
 print(f"Loading: {input_npz}")

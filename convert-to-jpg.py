@@ -2,8 +2,8 @@ import os
 import numpy as np
 from PIL import Image
 
-input_npz = "generated_datasets/temp_dataset_lego_resized256.npz"
-output_dir = "generated_datasets/lego_jpgs256"
+input_npz = "generated_datasets/temp_dataset_lego_resized128.npz"
+output_dir = "generated_datasets/lego_jpgs128"
 os.makedirs(output_dir, exist_ok=True)
 
 # Load the resized images
